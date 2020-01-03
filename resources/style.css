@@ -1,0 +1,30 @@
+/*install Mexcellent font regular and 3d*/
+@font-face {
+font-family: "mexcellent3d";
+src: url("./fonts/mexcellent3d.ttf");
+src:
+url("./fonts/mexcellent3d.ttf") format("ttf"),
+url("./fonts/mexcellent3d.ttf") format("opentype"),
+url("./fonts/mexcellent3d.svg#filename") format("svg");
+}
+@font-face {
+  font-family: "mexcellentrg";
+  src: url("./fonts/mexcellentrg.ttf");
+  src:
+  url("./fonts/mexcellentrg.ttf") format("ttf"),
+  url("./fonts/mexcellentrg.ttf") format("opentype"),
+  url("./fonts/mexcellentrg.svg#filename") format("svg");
+}
+
+html {
+	font-family: helvetica, sans-serif;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: mexcellent3d;
+}
