@@ -19,6 +19,7 @@ url("./fonts/mexcellent3d.svg#filename") format("svg");
 html {
 	font-family: helvetica, sans-serif;
 	font-size: 16px;
+  background-color: slate;
 }
 
 a {
