@@ -16,11 +16,46 @@ url("./fonts/mexcellent3d.svg#filename") format("svg");
   url("./fonts/mexcellentrg.svg#filename") format("svg");
 }
 
-.grey {
-    background-color: grey;
-}
+/* this main style rule is for testing purposes only 
+main {
+    background-color: salmon;
+} */
 
 h1.mexcellent {
 	font-family: mexcellent3d;
   font-size: 72px;
+  text-align: center;
+  border: 2px red solid;
 }
+
+h3 {
+  color: white;
+}
+
+/* rule for cover section of website */
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 40rem;
+  z-index: 1;
+}
+
+.cover::after {
+  height: 40rem;
+  background-image: url("./images/arne_pushup_cover.jpg");
+  background-size: cover;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.benefits {
+  height: 40rem;
+}
+
