@@ -57,5 +57,19 @@ h3 {
 
 .benefits {
   height: 40rem;
+  background-color: palegoldenrod;
+  display: flex;
 }
+
+
+.kid {
+  display: inline-flex;
+}
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;
+ }
 

@@ -17,28 +17,42 @@
 <body>
 	<!-- header including branded navigation bar using bootstrap classes -->
 	<header>
-		<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
-			<a class="navbar-brand" href="#"><img src="./resources/images/oldschoolfitlogo_transparent.png" width="100" height="20" alt="Old School Fit"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    		<span class="navbar-toggler-icon"></span></button>
- 			<div class="collapse navbar-collapse" id="navbarNav">
-    			<div class="navbar-nav">
-      				<a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      				<a class="nav-item nav-link" href="#">Features</a>
-      				<a class="nav-item nav-link" href="#">Pricing</a>
+		<nav class="d-flex justify-content-between navbar fixed-top navbar-expand-md navbar-light bg-light">
+			<!-- the stuff on the left of the menu bar -->
+			<div class="kid">
+				<!-- our logo -->
+				<a class="navbar-brand" href="#"><img src="./resources/images/oldschoolfitlogo_transparent.png" width="200" height=auto alt="Old School Fit"></a>
+				<!-- the burger toggler icon that appears when the window is smaller -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span></button>
+	 			<!-- the section of the navbar that collapes into the burger -->
+	 			<div class="collapse navbar-collapse" id="navbarNav">
+	    			<div class="navbar-nav">
+	      				<a class="nav-item nav-link" href="#">TRAINING</a>
+	      				<a class="nav-item nav-link" href="#">ERNÄHRUNG</a>
+	    			</div>
     			</div>
+    		</div>
+
+    		<!-- the stuff on the right of the menu bar -->
+    		<div class="kid justify-content-between">
+    			<button type="button" class="btn btn-secondary justify-content-end">JOIN US</button>	
     		</div>
 		</nav>	
 	</header>
+	
 	<!--main page content-->
 	<main class="container-fluid">
+		<!-- section one: COVER -->
 		<div class="cover">
-			<h3>ICH ESSE OLDSCHOOL.<br>ICH TRAINIERE OLDSCHOOL.<br>ICH BIN OLDSCHOOLFIT.</h3>
+			<h3>TRAINIERE OLDSCHOOL.<br>ESSE OLDSCHOOL.<br>WERDE OLDSCHOOLFIT.</h3>
 			<!-- gif embed 
 			<iframe src="https://giphy.com/embed/XDLfA1aDfMnX3nkegK" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XDLfA1aDfMnX3nkegK">via GIPHY</a></p>
 			-->
 		</div>
-		<div class="benefits">
+
+		<!-- section two: BENEFITS -->
+		<div class="benefits container-fluid">
 			
 		</div>
 	</main>
