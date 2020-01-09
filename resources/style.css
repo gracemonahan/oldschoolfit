@@ -33,6 +33,7 @@ h3 {
 }
 
 /* rule for cover section of website */
+/* this affects the text portion of the cover sectio*/
 .cover {
   display: flex;
   align-items: center;
@@ -41,6 +42,7 @@ h3 {
   z-index: 1;
 }
 
+/* this essentially creates a new layer behind the text for the cover image */
 .cover::after {
   height: 40rem;
   background-image: url("./images/arne_pushup_cover.jpg");
@@ -66,10 +68,8 @@ h3 {
   display: inline-flex;
 }
 
-.container-fluid {
-    padding-right:0;
-    padding-left:0;
-    margin-right:auto;
-    margin-left:auto;
- }
+.icon {
+  display: flex;
+  justify-content: center;
+}
 
