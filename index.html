@@ -12,6 +12,10 @@
 	<link rel="shortcut icon" type="image/png" href="./resources/images/favicon.png"/>
 	<!-- font-fuckingasweome icon library -->
 	<script src="https://kit.fontawesome.com/1bedda7e13.js" crossorigin="anonymous"></script>
+	<!-- mailchimp stylesheet -->
+	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } </style>
 	
 	<title>OLDSCHOOLFIT</title>
 </head>
@@ -38,13 +42,74 @@
 
     		<!-- the stuff on the right of the menu bar -->
     		<div class="kid justify-content-between">
-    			<button type="button" class="btn btn-secondary justify-content-end">JOIN US</button>	
+    			<button type="button" data-toggle="modal" data-target="#mailchimpModal" class="btn btn-info btn-secondary justify-content-end">JOIN US</button>	
     		</div>
 		</nav>	
 	</header>
 	
 	<!--main page content-->
 	<main class="container-fluid">
+		<!-- Modal for Mailchimp sign-up (aka POP-UP). Triggered by JOIN US button-->
+		<div id="mailchimpModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<div class="modal-header">
+					<h4 class="modal-title">Let's keep in touch.</h4>	
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<img class="img-fluid phones" src="./resources/images/phones.jpg">
+						<p>WILLST DU WISSEN WANN OLDSCHOOLFIT BEREIT ZUM NUTZEN IST? TRAG DICH EIN 🌞</p>
+						<!-- Begin Mailchimp Signup Form -->
+						<style type="text/css">
+							#mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}
+							#mergeRow-gdpr {margin-top: 20px;}
+							#mergeRow-gdpr fieldset label {font-weight: normal;}
+							#mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
+						</style>
+						<div id="mc_embed_signup">
+						<form action="https://oldschoolfit.us4.list-manage.com/subscribe/post?u=35cec7f7a5a5ffa91bec9db1d&amp;id=1774352bb7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						    <div id="mc_embed_signup_scroll">
+							
+						<div class="mc-field-group">
+							<label for="mce-EMAIL">Email Adresse </label>
+							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+						</div>
+						<div class="mc-field-group">
+							<label for="mce-FNAME">Vorname </label>
+							<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+						</div>
+						<div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
+						    <div class="content__gdpr">
+						        <label>Marketing Permissions</label>
+						        <p>Please select all the ways you would like to hear from OLDSCHOOLFIT:</p>
+						        <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
+								<label class="checkbox subfield" for="gdpr_33733"><input type="checkbox" id="gdpr_33733" name="gdpr[33733]" value="Y" class="av-checkbox "><span>Email</span> </label><label class="checkbox subfield" for="gdpr_33737"><input type="checkbox" id="gdpr_33737" name="gdpr[33737]" value="Y" class="av-checkbox "><span>Direct Mail</span> </label><label class="checkbox subfield" for="gdpr_33741"><input type="checkbox" id="gdpr_33741" name="gdpr[33741]" value="Y" class="av-checkbox "><span>Customized Online Advertising</span> </label>
+						        </fieldset>
+						        <p>You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please visit our website.</p>
+						    </div>
+						    <div class="content__gdprLegal">
+						        <p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/" target="_blank">Learn more about Mailchimp's privacy practices here.</a></p>
+						    </div>
+						</div>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_35cec7f7a5a5ffa91bec9db1d_1774352bb7" tabindex="-1" value=""></div>
+						    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+						    </div>
+						</form>
+						</div>
+						<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+						<!--End mc_embed_signup-->
+
+		
+					</div>				
+				</div>				
+			</div>			
+		</div>
 		<!-- section one: COVER -->
 		<div class="cover">
 			<h3>TRAINIERE OLDSCHOOL.<br>ESSE OLDSCHOOL.<br>WERDE OLDSCHOOLFIT.</h3>

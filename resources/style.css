@@ -84,8 +84,14 @@ h3 {
   height: 60px;
 }
 
-.benefits h4{
+.benefits h4 {
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.phones {
+  border: red 2px solid;
+  height: 70px;
+
 }
 
