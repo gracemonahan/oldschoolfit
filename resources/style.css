@@ -37,6 +37,7 @@ h2 {
 .btn, .btn-secondary {
   background-color: #002a32 !important;
   color: #bae4ed !important;
+  width: 12rem !important;
 }
 
 .btn:hover {
@@ -82,16 +83,38 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  /*padding: 8rem 4rem; */
   margin: 0px -15px;
+}
+
+.yellow {
+  background-color: #eee8aa;
+}
+
+.blue {
+  background-color: #bae4ed;
+}
+
+.salmon {
+  background-color: #ff8c69;
+}
+
+.green {
+  background-color: #bdd2a6;
+}
+
+.darkblue {
+  background-color: #002a32;
 }
 
 /* benefits section style rules */
 .benefits {
   height: 30rem;
-  background-color: #eee8aa;
   padding-left: 4rem;
   padding-right: 4rem;
+  padding-top: 4rem;
+  display: inline-block;
+  margin-left: -15px;
+  margin-right: -30px;
 }
 
 .vector {
@@ -117,20 +140,25 @@ h2 {
 /* TESTIMONIALS section style rules  */
 .testimonials {
   height: 40rem;
-  background-color: #bae4ed;
+  margin-left: -15px;
+  margin-right: -30px;
 }
 
-/* TEXT_BLOCK section style rules */
+/* TEXT_BLOCK sections style rules */
 
 .text_block {
   height: 35rem;
   padding-left: 4rem;
   padding-right: 4rem;
+  padding-top: 3rem;
   color: white;
+  margin-left: -15px;
+  margin-right: -30px;
+  display: inline-block;
 }
 
-.green {
-  background-color: #bdd2a6;
+.inline-block {
+  display: inline-block;
 }
 
 .text_block h3 {
@@ -138,12 +166,49 @@ h2 {
 }
 
 .text_block p {
-  font-size: 40px;
+  font-size: 2.2rem;
 }
 
-.blue {
-  background-color: #ff8c69;
+.middle_button {
+justify-content: center;
+display: flex;
+padding-top: 2rem;
 }
+
+/* lettuce section style rules */
+
+.lettuce {
+  background-image: url(./images/lettuce.jpg);
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 3rem;
+  color: white;
+  margin-left: -15px;
+  margin-right: -30px;
+  display: inline-block;
+  height: 40rem;
+}
+
+.lettuce h3 {
+    font-size: 6rem;
+}
+
+.lettuce {
+  font-size: 30px;
+}
+
+
+/* last testimonials sections */
+.testimonials_two h2 {
+  font-size: 8rem;
+}
+
+.right-column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 
 
 
