@@ -22,6 +22,11 @@ main {
 } */
 
 /* general style rules */
+.full-width {
+  margin-left: -15px;
+  margin-right: -30px;
+}
+
 h1.mexcellent {
 	font-family: mexcellent3d;
   font-size: 2rem;
@@ -34,13 +39,19 @@ h2 {
 }
 
 /* button style rules */
-.btn, .btn-secondary {
+.btn-secondary {
   background-color: #002a32 !important;
   color: #bae4ed !important;
   width: 12rem !important;
 }
 
-.btn:hover {
+.btn-outline-secondary {
+  border-color: #002a32 !important;
+  color: #002a32 !important;
+  width: 10rem;
+}
+
+.btn-secondary:hover {
   background-color: #bae4ed !important;
   color: #002a32 !important;
 }
@@ -83,7 +94,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0px -15px;
 }
 
 .yellow {
@@ -113,15 +123,12 @@ h2 {
   padding-right: 4rem;
   padding-top: 4rem;
   display: inline-block;
-  margin-left: -15px;
-  margin-right: -30px;
 }
 
 .vector {
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 80px;
   overflow: hidden;
   padding-top: 20px;
@@ -140,8 +147,6 @@ h2 {
 /* TESTIMONIALS section style rules  */
 .testimonials {
   height: 40rem;
-  margin-left: -15px;
-  margin-right: -30px;
 }
 
 /* TEXT_BLOCK sections style rules */
@@ -152,8 +157,6 @@ h2 {
   padding-right: 4rem;
   padding-top: 3rem;
   color: white;
-  margin-left: -15px;
-  margin-right: -30px;
   display: inline-block;
 }
 
@@ -170,35 +173,28 @@ h2 {
 }
 
 .middle_button {
-justify-content: center;
-display: flex;
-padding-top: 2rem;
+  justify-content: center;
+  display: flex;
+  padding-top: 2rem;
 }
 
 /* lettuce section style rules */
-
 .lettuce {
   background-image: url(./images/lettuce.jpg);
   padding-left: 4rem;
   padding-right: 4rem;
   padding-top: 3rem;
   color: white;
-  margin-left: -15px;
-  margin-right: -30px;
   display: inline-block;
   height: 40rem;
-}
-
-.lettuce h3 {
-    font-size: 6rem;
-}
-
-.lettuce {
   font-size: 30px;
 }
 
+.lettuce h3 {
+  font-size: 6rem;
+}
 
-/* last testimonials sections */
+/* second testimonials sections */
 .testimonials_two h2 {
   font-size: 8rem;
 }
@@ -209,8 +205,53 @@ padding-top: 2rem;
   align-items: center;
 }
 
+/* plenaire section */
+.plenaire {
+  height: 50rem;
+  justify-content: center;
+}
 
+.purple {
+  background-color: #efe6fc;
+  height: 40rem;
+  z-index: -10;
+}
 
+.row.blank {
+  height: 5rem;
+}
+
+.darkblue-text {
+  color: #002a32;
+}
+
+.center-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plenaire p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+
+.plenaire h3 {
+  line-height: 60px;
+  font-size: 40px;
+}
+
+.platzhalter img {
+  max-width: 100%;
+  height: 100;
+  margin-left: 100px;
+  padding-top: 50px;
+  z-index: 30;
+}
+
+.border {
+  border: blue 3px solid;
+}
 
 
 
