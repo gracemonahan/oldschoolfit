@@ -31,7 +31,6 @@ h1.mexcellent {
 	font-family: mexcellent3d;
   font-size: 2rem;
   text-align: center;
-  border: 2px red solid;
 }
 
 h2 {
@@ -249,13 +248,11 @@ h2 {
 }
 
 .img_links {
-  border: 2px blue solid;
 }
 
 .img_links img {
   padding-top: 50px;
-  border: red 2px solid;
-    margin-left: 100px;
+  margin-left: 100px;
 
 
 }
@@ -263,12 +260,10 @@ h2 {
 .img_rechts img {
   padding-top: 10px;
   margin-right: 0px;
-  border: red 2px solid;
 
 }
 
 .img_rechts {
-  border: 2px blue solid;
 
 
 }
