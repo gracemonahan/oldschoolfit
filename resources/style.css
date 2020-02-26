@@ -16,6 +16,21 @@ url("./fonts/mexcellent3d.svg#filename") format("svg");
   url("./fonts/mexcellentrg.svg#filename") format("svg");
 }
 
+/* these rules are for the static platzhalter page */
+
+#logo {
+  display: flex;
+  height: 200px;
+  width: auto;
+  margin-top: 70px;
+
+}
+
+#platzhalter, #logo {
+  margin-left: 50px;
+  color: #5D9CD4;
+}
+
 /* this main style rule is for testing purposes only 
 main {
     background-color: salmon;
